@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+body {
+    margin: 0;
+    overflow-y: scroll;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(36, 37, 38, 0.08);
+    align-items: center;
+    text-transform: uppercase
+}
+
+.logo__link {
+    margin-left: 6px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.7px;
+}
+
+.nav__lang-list {
+    display: flex;
+}
+
+.nav {
+    margin-right: 13px;
+}
+
+.nav__list {
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.nav__link {
+    font-size: 14px;
+    padding: 27px 0;
+    margin-left: 30px;
+    display:inline-block;
+    position: relative;
+}
+
+.nav__link::after {
+    position: absolute;
+    content: '';
+    background-color: #f07970;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    height: 5px;
+    transition: 0.2s;
+    transition-property: left, right;
+    transition-timing-function: ease-out;
+}
+
+.nav__link:hover::after {
+    left: 0;
+    right: 0;
+}
+
+.header__lang-list {
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+}
+
+.header__lang-item {
+    font-size: 16px;
+    padding: 27px 25px;
+    border-left:  1px solid rgba(36, 37, 38, 0.08);
+}
+
+.header__lang-item .active {
+    color: rgba(36, 37, 38, 0.5);
+}

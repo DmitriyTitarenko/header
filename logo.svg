@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="279" height="50" viewBox="0 0 279 50">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#4E4E4E" fill-opacity=".1" fill-rule="nonzero" d="M6.99 43h35.95V7H6.99v36zM0 0h49.93v50H0V0z"/>
+        <path fill="#FEFEFE" d="M20.971 0h7.989v50h-7.989z"/>
+        <path fill="#F07970" d="M15.978 16h17.975v18H15.978z"/>
+        <text fill="#4C4C4C" font-family="DroidSerif-Regular, Droid Serif" font-size="20">
+            <tspan x="59.917" y="32">Accounting Agency Ltd</tspan>
+        </text>
+    </g>
+</svg>
